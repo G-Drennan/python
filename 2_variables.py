@@ -6,12 +6,16 @@ grandTotal = cabbagePrice * cabbageAmount
 
 applePrice = 13.20
 appleAmount = 342
-grandTotal = grandTotal + (applePrice * appleAmount)
-print("The grand total is {}".format(grandTotal))
+#grandTotal = grandTotal + (applePrice * appleAmount)
+myprice=200
+grandTotal=myprice
+print("The grand total is {} my price".format(grandTotal))
 # Here, we're still performing a simple multiplication, but you as the 
 # programmer have a better understanding of what the code is trying to do.
 # However, if you wanted to save time, you can call your variables whatever 
 # you want. The following code does the same job:
+
+print("The grand total is "+ str(grandTotal) +" another method turning int to str")
 
 cp = 10.05
 ca = 200

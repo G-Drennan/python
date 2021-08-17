@@ -19,5 +19,5 @@ print("Now for some calculator stuff!")
 print(5)
 print(2+7)
 print(33*4)
-
+print("I understand print!")
 # But python can help you do much more than just calculator work. To do this, it needs to be able to remember things...
