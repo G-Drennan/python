@@ -9,7 +9,7 @@ if (num1 == 5):
 elif (num1==6):
   print("You typed 6!")
 else:
-  print("You didn't type 5!")
+  print("You didn't type 5 or 6!")
 
 # Using this `if`, you've steered your program down one set of commands if 
 # `num1` is 5, and a different set of commands if `num1` is not 5. Since 
@@ -34,3 +34,7 @@ print("blastoff!")
 # commands are affected by the control structure and which ones arent.
 
 # Using these control structures you can make very complicated things. 
+
+for x in range(1,11):
+  print("step "+str(x))
+  #its no inclusive of 11

@@ -1,2 +1,2 @@
 language = "python3"
-run="python 5_control.py"
+run="python 6_lists.py"

@@ -17,12 +17,14 @@ var4 = input()
 
 print("Use a list instead to take input!")
 listOfNumbers = []
-currentPosition = 1
-
-while (len(listOfNumbers) < 5):
-  print("Input number "+str(currentPosition)+":")
+currentPosition = 0
+print("What is the list length: ")
+lenght=int(input())
+while (len(listOfNumbers) < lenght):
+  print("Input number at index"+str(currentPosition)+":")
   currentPosition = currentPosition + 1
   listOfNumbers.append(input())
+#uses less space and can count of differnt lenghts of the users list:
 
 # Another advantage of lists is that we can manipulate them in different ways:
 
