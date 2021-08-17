@@ -6,6 +6,8 @@ num1 = int(input())
 
 if (num1 == 5):
   print("You typed 5!")
+elif (num1==6):
+  print("You typed 6!")
 else:
   print("You didn't type 5!")
 
@@ -19,8 +21,9 @@ print("Type a number:")
 num1 = int(input())
 
 while (num1 > 0):
-  print(num1)
+  #count backward from the typed number
   num1 = num1 - 1
+  print(num1)
 
 print("blastoff!")
 
