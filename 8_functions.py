@@ -12,7 +12,8 @@ def printNnumbers(n):
 print ("Let's make a triangle! Input size:")
 size=int(input())
 temp=0
-while (temp<size):
+#made the number of line equal to the input
+while (temp<=size):
   printNnumbers(temp)
   temp=temp+1
 
