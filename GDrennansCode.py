@@ -8,4 +8,3 @@ for x in range(0,ID-1):
  print(name)
 
 
-
