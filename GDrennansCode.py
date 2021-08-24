@@ -6,3 +6,6 @@ name=input()
 #prints name one less time than the number input
 for x in range(0,ID-1):
  print(name)
+
+
+

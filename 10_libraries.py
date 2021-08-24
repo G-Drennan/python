@@ -12,6 +12,7 @@ import math
 
 print(math.cos(math.pi/2))
 print(math.sin(math.pi/6))
+print(math.atan(math.pi/3))
 
 # What if we comment out the `import math?` 
 # If you tried the last two commands without the preceding `import math`, 
@@ -28,4 +29,5 @@ print(math.sin(math.pi/6))
 
 import helper
 
-help_me("now")
+#imported helper
+helper.help_me("now")
